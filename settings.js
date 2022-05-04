@@ -21,18 +21,18 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['916909137213']
-global.premium = ['916909137213']
-global.ownernomer = '916909137213'
-global.ownername = '🦄Dream Guy Xeon'
-global.botname = 'Cheems Bot MD V2'
-global.footer = 'Xeon Bot Inc.'
-global.ig = 'https://github.com/DGXeon'
+global.owner = ['917373104400']
+global.premium = ['917373104400']
+global.ownernomer = '917373104400'
+global.ownername = 'DARCO VAMPIRE'
+global.botname = 'Darco And Vampire'
+global.footer = 'DARCO VAMPIRE-Bot Inc.'
+global.ig = 'https://github.com/turbogaming876'
 global.region = 'India, NorthEast, Mizoram'
-global.sc = 'https://github.com/DGXeon/CheemsBot-MD2'
-global.myweb = 'https://youtu.be/imFIX-Wrt3s'
-global.packname = 'Cheems Bot'
-global.author = '🦄Dream Guy Xeon'
+global.sc = 'https://github.com/turbogaming876/CheemsBot-MD2'
+global.myweb = 'VIDE WILL BE available SOON!'
+global.packname = 'DARCO VAMPIRE BOT'
+global.author = 'DARCO AND VAMPIRE'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
