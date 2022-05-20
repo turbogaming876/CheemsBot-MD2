@@ -23,14 +23,14 @@ global.APIKeys = {
 //customize settings\\
 global.owner = ['917373104400']
 global.premium = ['917373104400']
-global.ownernomer = '917373104400,'
+global.ownernomer = '917373104400'
 global.ownername = 'DARCO VAMPIRE'
 global.botname = 'Darco Vampire Bot '
 global.footer = 'Darco Bot Inc.'
 global.ig = 'https://instagram.com/tharnish_fuego'
 global.region = 'India, NorthEast, TamilNadu'
 global.sc = 'https://instagram.com/toxic_darco'
-global.myweb = 'DARCO VAMPIRE😉'
+global.myweb = 'I DONT HAVE A YOUTUBE CHANNEL NOW🥲'
 global.packname = 'DARCO VAMPIRE Bot'
 global.author = 'DARCO VAMPIRE BOT'
 global.sessionName = 'session'
