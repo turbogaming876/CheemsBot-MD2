@@ -21,18 +21,18 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['917373104400']
-global.premium = ['917373104400']
-global.ownernomer = '917373104400'
-global.ownername = 'DARCO VAMPIRE'
-global.botname = 'Darco Vampire Bot '
+global.owner = ['2349131783574']
+global.premium = ['2349131783574']
+global.ownernomer = '2349131783574'
+global.ownername = 'OBIZZY'
+global.botname = 'OBIZZY MD '
 global.footer = 'Darco Bot Inc.'
-global.ig = 'https://instagram.com/tharnish_fuego'
-global.region = 'India, NorthEast, TamilNadu'
+global.ig = 'https://instagram.com/toxic_darco'
+global.region = 'Nigeria, Kano, Yankaba'
 global.sc = 'https://instagram.com/toxic_darco'
 global.myweb = 'I DONT HAVE A YOUTUBE CHANNEL NOW🥲'
-global.packname = 'DARCO VAMPIRE Bot'
-global.author = 'DARCO VAMPIRE BOT'
+global.packname = 'OBIZZY'
+global.author = 'OBIZZY'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
