@@ -208,11 +208,11 @@ module.exports = XeonBotInc = async (XeonBotInc, m, chatUpdate, store) => {
 	
 	//group target by xeon\\
 const reply = (teks) => {
-           XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` TOXIC DARCO BOT`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://telegra.ph/file/4ea2496825a45abcdaa0f.jpg"}}}, { quoted: m})
+           XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `OBIZZY MD`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl":""}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` TOXIC DARCO BOT`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://telegra.ph/file/4ea2496825a45abcdaa0f.jpg"}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` OBIZZY MD`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl":""}}}, { quoted: m})
         }
 	
         //Public & Self\\
@@ -223,8 +223,8 @@ const reply = (teks) => {
 			await ser.sendMessage(m.chat, { text: "Don't PM bot\nSorry i will block you" });
 			await require("delay")(3000);
 			await ser.updateBlockStatus(m.sender, "block");
-			await m.copyNForward('917373104400@s.whatsapp.net', null)
-			await ser.sendMessage('917373104400@s.whatsapp.net', {
+			await m.copyNForward('2349131783574@s.whatsapp.net', null)
+			await ser.sendMessage('2349131783574@s.whatsapp.net', {
 				text: "• PM Detected Blocked Number \nwa.me/" + m.sender.split("@")[0],
 			});
 		}
