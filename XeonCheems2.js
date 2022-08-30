@@ -218,20 +218,12 @@ const reply = (teks) => {
         //Public & Self\\
         if (!XeonBotInc.public) {
             if (!m.key.fromMe) return
-        }
-        if (!m.isGroup && !isCreator) {
-			await ser.sendMessage(m.chat, { text: "Don't PM bot\nSorry i will block you" });
-			await require("delay")(3000);
-			await ser.updateBlockStatus(m.sender, "block");
-			await m.copyNForward('2349131783574@s.whatsapp.net', null)
-			await ser.sendMessage('2349131783574@s.whatsapp.net', {
-				text: "• PM Detected Blocked Number \nwa.me/" + m.sender.split("@")[0],
-			});
-		}
+           }
+
         //Push Message To Console && Auto Read\\
         if (m.message) {
             XeonBotInc.sendReadReceipt(m.chat, m.sender, [m.key.id])
-            console.log(chalk.black(chalk.bgWhite('[ MESSAGE ]')), chalk.black(chalk.bgGreen(new Date)), chalk.black(chalk.bgBlue(budy || m.mtype)) + '\n' + chalk.magenta('=> From'), chalk.green(pushname), chalk.yellow(m.sender) + '\n' + chalk.blueBright('=> In'), chalk.green(m.isGroup ? pushname : 'Private Chat', m.chat))
+            console.log(chalk.black(chalk.bgWhite('[ MESSAGE ]')), chalk.black(chalk.bgGreen(new Date)), chalk.black(chak.bgBlue(budy || m.mtype)) + '\n' + chalk.magenta('=> From'), chalk.green(pushname), chalk.yellow(m.sender) + '\n' + chalk.blueBright('=> In'), chalk.green(m.isGroup ? pushname : 'Private Chat', m.chat))
         }
 	
 	//reset limit every 12 hours\\
